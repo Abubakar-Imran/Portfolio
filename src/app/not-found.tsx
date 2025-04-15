@@ -1,12 +1,5 @@
-'use client';
-
-import { Button } from '@/components';
-import dynamic from 'next/dynamic';
+import { Button, ShowLottie } from '@/components';
 import { Layout } from '@/containers';
-
-const ShowLottie = dynamic(() => import('@/components/ui/ShowLottie'), {
-  ssr: false,
-});
 
 const NotFound = () => {
   return (
