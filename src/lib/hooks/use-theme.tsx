@@ -27,34 +27,33 @@ export default function ThemeProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
-  const [mounted, setMounted] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(
+    typeof window !== 'undefined' &&
+      JSON.parse(localStorage.getItem('darkMode') || 'true')
+      ? true
+      : false
+  );
 
-  useEffect(() => {
-    // Initialize theme client-side
-    const savedTheme = typeof window !== 'undefined' ? localStorage.getItem('darkMode') : null;
-    const prefersDark =
-      typeof window !== 'undefined' &&
-      window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const initialTheme = savedTheme ? JSON.parse(savedTheme) : prefersDark;
-    setIsDarkMode(initialTheme);
-    setMounted(true);
+  const toggle = useCallback(() => {
+    setIsDarkMode((prev) => !prev);
+  }, []);
+
+  const enableDarkMode = useCallback(() => {
+    setIsDarkMode(true);
+  }, []);
+
+  const disableDarkMode = useCallback(() => {
+    setIsDarkMode(false);
   }, []);
 
   useEffect(() => {
-    if (mounted && typeof window !== 'undefined') {
-      localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
-      document.documentElement.classList.toggle('dark', isDarkMode);
+    localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
+    if (isDarkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
     }
-  }, [isDarkMode, mounted]);
-
-  const toggle = () => setIsDarkMode((prev) => !prev);
-  const enableDarkMode = () => setIsDarkMode(true);
-  const disableDarkMode = () => setIsDarkMode(false);
-
-  if (!mounted) {
-    return <>{children}</>;
-  }
+  }, [isDarkMode]);
 
   return (
     <ThemeContext.Provider
