@@ -3,12 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "lint": "next lint",
-    "lint:fix": "eslint src --fix && yarn format",
-    "prepare": "husky install"
+    "start": "next start"
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.6.0",
