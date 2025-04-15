@@ -39,5 +39,6 @@ next-env.d.ts
 # ignore package-lock if generated (project uses yarn, not npm)
 package-lock.json
 
-.husky/
-.vscode/
+# ignore .vscode
+/.vscode
+
