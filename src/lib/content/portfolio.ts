@@ -21,7 +21,7 @@ export const author = {
 
 export const seoData = {
   title: 'Abubakar Imran | Full Stack Developer | AI & ML Enthusiast',
-  description: 'Abubakar Imran is a Full-Stack Developer skilled in MERN, Next.js, and AI-powered web solutions. Expert in LLMs, RAG based solution, and real-world ML optimization.',
+  description: 'Abubakar Imran is a Full-Stack Developer skilled in MERN, Next.js, and AI-powered web solutions. Expert in LLMs, RAG based solution, CV based solution and real-world ML optimization.',
   author: author.name,
   image: '',
   url: 'https://abubakar-imran.vercel.app/',

@@ -4,14 +4,26 @@ export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
   experiences: [
     {
+      company: 'SimpleTalk AI',
+      companyUrl: 'https://www.linkedin.com/company/simpletalk-ai/about/',
+      role: 'AI Prompt Engineer',
+      started: 'june 2025',
+      upto: 'Current',
+      tasks: [
+        'Developing and optimizing prompts for AI models to enhance user interaction and information retrieval.',
+        'Creating and maintaining a knowledge base for the AI system to improve response accuracy.',
+        'Collaborating with cross-functional teams to integrate AI solutions into existing products.',
+      ],
+    },
+    {
       company: 'MacVision Lab',
       companyUrl: 'https://vision.seecs.edu.pk/',
-      role: 'Deep Learning Researcher',
+      role: 'Deep Learning Research Intern',
       started: 'november 2024',
-      upto: 'january 2025',
+      upto: 'march 2025',
       tasks: [
-        'Working on Land Use Land Cover Classification and crop mapping using remote sensing imagery and machine learning.',
-        'Applying Continual Learning techniques to improve model adaptability for classification tasks.',
+        'Working on Land Use Land Cover Classification and crop mapping using remote sensing imagery and deep learning.',
+        'Apply regional and time transfer learning techniques to improve model performance.',
       ],
     },
     {

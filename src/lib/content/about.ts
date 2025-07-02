@@ -5,12 +5,16 @@ export const aboutSection: AboutSectionType = {
   // Paragraphs need to be changed from `/containers/About.tsx`
   // Because it wasn't possible to insert anchor tags like this
   list: {
-    title: 'Here are a few technologies I’ve been working with recently:',
+    title: 'Here are a few domains which I’ve been exploring recently:',
     items: [
-      'TensorFlow',
-      'PyTorch',
-      'NextJs',
-      'ReactJs',
+      'Deep Learning',
+      'Machine Learning',
+      'Computer Vision',
+      'Large Language Models',
+      'Generative AI',
+      'MLOps',
+      'AI Automation and Workflows',
+      'Natural Language Processing',
     ],
   },
   img: '/abubakar-imran.jpg',

@@ -6,6 +6,33 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'RoadFusion',
+      url: 'https://github.com/Abubakar-Imran/Road-Scene-Semantic-Segmentation-MLOps',
+      repo: 'https://github.com/Abubakar-Imran/Road-Scene-Semantic-Segmentation-MLOps',
+      img: '/projects/road-fusion1.png',
+      year: 2025,
+      tags: ['DL', 'CV', 'MLOps'],
+    },
+    {
+      id: getId(),
+      name: 'Facial Classification',
+      url: 'https://github.com/Abubakar-Imran/Facial-Classification',
+      repo: 'https://github.com/Abubakar-Imran/Facial-Classification',
+      img: '/projects/facial-classification.png',
+      year: 2025,
+      tags: ['DL', 'ML'],
+    },
+    {
+      id: getId(),
+      name: 'LahoreEco',
+      url: 'https://github.com/Abubakar-Imran/lahore-population-environment-analysis',
+      repo: 'https://github.com/Abubakar-Imran/lahore-population-environment-analysis',
+      img: '/projects/lahore-eco1.png',
+      year: 2025,
+      tags: ['ML', 'Remote Sensing', 'Data Analysis'],
+    },
+    {
+      id: getId(),
       name: 'NIMUN',
       url: 'https://nimun.com.pk/',
       repo: 'https://github.com/TahaShah141/nimunWebsite',
@@ -43,7 +70,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'News App',
-      url: '',
+      url: 'https://github.com/Abubakar-Imran/News-App',
       repo: 'https://github.com/Abubakar-Imran/News-App',
       img: '/projects/news.png',
       year: 2023,

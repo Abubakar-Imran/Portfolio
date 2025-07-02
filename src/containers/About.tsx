@@ -24,7 +24,7 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Abubakar Imran, a third-year BSCS student at{' '}
+            Hi, my name is Abubakar Imran, final-year BSCS student at{' '}
             <Link
               href="https://nust.edu.pk/"
               target="_blank"
@@ -33,7 +33,9 @@ const About = () => {
               National University of Sciences and Technology (NUST)
             </Link>
             .<br />
-            I'm a Full-Stack Developer with a passion for AI, specializing in the MERN stack, Next.js, and cutting-edge machine learning. I create secure, scalable web apps and innovate with NLP, LLMs, and real-world ML solutions.
+            <br />
+            <br />
+            I specialize in Full-Stack Development and Artificial Intelligence, with a passion for building intelligent and scalable applications.
           </p>
           {/* <p>
             Fast-forward to today, and I've had the privilege of working at -{' '}
@@ -47,9 +49,9 @@ const About = () => {
             .
           </p> */}
           <p>
-            My main focus these days is exploring ML and contributing to real-world AI solutions.
+            My main focus these days is exploring MLOPS and contributing to real-world solutions.
           </p>
-
+          <br />
           {list && (
             <>
               <p>{list.title}</p>

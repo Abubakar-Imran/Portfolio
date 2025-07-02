@@ -43,7 +43,10 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/designing-dark.json',
       },
       points: [
-        'Building ML and AI models using TensorFlow and PyTorch',
+        'Designing and deploying machine learning models for real-world use cases',
+        'Building AI-powered chatbots and retrieval-augmented generation (RAG) systems using LangChain',
+        'Working on deep learning projects involving computer vision and remote sensing',
+        'Applying ML techniques for classification, prediction, and intelligent automation',
       ],
       softwareSkills: [
         { name: 'python', icon: 'logos:python' },
@@ -53,7 +56,7 @@ export const skillsSection: SkillsSectionType = {
         { name: 'numpy', icon: 'logos:numpy' },
         { name: 'matplotlib', icon: 'logos:matplotlib' },
         { name: 'seaborn', icon: 'logos:seaborn' },
-
+        { name: 'openai', icon: 'logos:openai' },
       ],
     },
   ],
