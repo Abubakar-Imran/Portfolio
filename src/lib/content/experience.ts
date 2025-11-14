@@ -8,7 +8,7 @@ export const experienceSection: ExperienceSectionType = {
       companyUrl: 'https://www.linkedin.com/company/simpletalk-ai/about/',
       role: 'AI Prompt Engineer',
       started: 'june 2025',
-      upto: 'Current',
+      upto: 'september 2025',
       tasks: [
         'Developing and optimizing prompts for AI models to enhance user interaction and information retrieval.',
         'Creating and maintaining a knowledge base for the AI system to improve response accuracy.',
