@@ -5,7 +5,7 @@ export const experienceSection: ExperienceSectionType = {
   experiences: [
     {
       company: 'SimpleTalk AI',
-      companyUrl: 'https://www.linkedin.com/company/simpletalk-ai/about/',
+      companyUrl: 'https://www.linkedin.com/company/simpletalk-ai/',
       role: 'AI Prompt Engineer',
       started: 'june 2025',
       upto: 'september 2025',

@@ -6,6 +6,15 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'Lawbot',
+      url: 'https://github.com/Abubakar-Imran/LawBot',
+      repo: 'https://github.com/Abubakar-Imran/LawBot',
+      img: '/projects/lawbot.png',
+      year: 2025,
+      tags: ['AI', 'RAG', 'LangChain'],
+    },
+    {
+      id: getId(),
       name: 'RoadFusion',
       url: 'https://github.com/Abubakar-Imran/Road-Scene-Semantic-Segmentation-MLOps',
       repo: 'https://github.com/Abubakar-Imran/Road-Scene-Semantic-Segmentation-MLOps',

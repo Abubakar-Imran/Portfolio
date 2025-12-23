@@ -57,6 +57,7 @@ export const skillsSection: SkillsSectionType = {
         { name: 'matplotlib', icon: 'logos:matplotlib' },
         { name: 'seaborn', icon: 'logos:seaborn' },
         { name: 'openai', icon: 'logos:openai' },
+        { name: 'langchain', icon: 'simple-icons:langchain' }
       ],
     },
   ],
